@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <ThemeToggle darkMode={darkMode} toggleTheme={toggleTheme} />
+      {/* <ThemeToggle darkMode={darkMode} toggleTheme={toggleTheme} /> */}
       <Navbar />
       <Hero />
       <About />
